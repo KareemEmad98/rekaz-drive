@@ -35,8 +35,8 @@ Pygments==2.19.2
 pytest==8.4.1
 python-dotenv==1.1.1
 python-multipart==0.0.20
-pywin32==311
-PyYAML==6.0.2
+# Only install pywin32 on Windows
+pywin32==311; sys_platform == "win32"PyYAML==6.0.2
 requests==2.32.4
 rich==14.1.0
 rich-toolkit==0.14.9
