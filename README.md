@@ -138,4 +138,6 @@ curl --location 'http://localhost:8000/v1/blobs/k5' \
 
 I took extra time to ensure the reviewer has a smooth setup and testing experience.
 For this reason, I’ve kept the .env file with the actual values I used.
-They are mostly free-tier storage services, so you can test and try all functionality right away without any additional configuration or setup steps.
+They are mostly free-tier storage services, so you can test and try all 
+functionality right away without any additional configuration or setup steps.
+(to test S3 storage, you will have to provide your own access tokens)
