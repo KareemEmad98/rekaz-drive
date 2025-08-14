@@ -68,10 +68,10 @@ This project follows a **Hexagonal Architecture (Ports and Adapters)** design pa
 ## ⚙️ Environment Variables
 
 The `.env` file is **included** and already configured for:
-- Free-tier S3 bucket
 - Free-tier FTP storage
 - Local filesystem path
 - Local SQLite DB
+- S3 bucket (Needs some .env keys due to AWS restrictions)
 
 Example:
 
